@@ -1,7 +1,7 @@
 import pymongo
 import os
 from helper.date import add_date
-DB_NAME = os.environ.get("DB_NAME", "")
+DB_NAME = os.environ.get("DB_NAME", "TELEGRAM_BOT_INFO")
 DB_URL = os.environ.get("DB_URL", "")
 mongo = pymongo.MongoClient(DB_URL)
 db = mongo[DB_NAME]
