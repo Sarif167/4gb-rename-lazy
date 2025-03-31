@@ -26,7 +26,7 @@ async def upgrade(bot,update):
 	After Payment Send Screenshots Of 
         Payment To Admin @mRiderDM"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/onefighterarmy")], 
+        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/botmaster55")], 
         			[InlineKeyboardButton("Paytm",url = "https://play.google.com/store/apps/details?id=net.one97.paytm"),
         			InlineKeyboardButton("Paytm",url = "https://play.google.com/store/apps/details?id=com.phonepe.app")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await update.message.edit(text = text,reply_markup = keybord)
@@ -56,7 +56,7 @@ async def upgradecm(bot,message):
 	After Payment Send Screenshots Of 
         Payment To Admin @mRiderDM"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/onefighterarmy")], 
+        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/botmaster55")], 
         			[InlineKeyboardButton("Paytm",url = "https://play.google.com/store/apps/details?id=net.one97.paytm"),
         			InlineKeyboardButton("Phonepe",url = "https://play.google.com/store/apps/details?id=com.phonepe.app")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await message.reply_text(text = text,reply_markup = keybord)
